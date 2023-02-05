@@ -1,6 +1,6 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-const url = '';
+const url = 'https://www.thinkcontest.com';
 
 async function main() {
   const resp = await axios.get(url + "/Contest/CateField.html");
